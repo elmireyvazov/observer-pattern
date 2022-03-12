@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ObserverLibrary.Class
+namespace ObserverLibrary
 {
-    interface ConcreteSubject
+     public interface Observer
     {
+        void Update();
     }
 }

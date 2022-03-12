@@ -41,11 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class\ConcreteObserver.cs" />
-    <Compile Include="Class\ConcreteSubject.cs" />
-    <Compile Include="Interface\Observer.cs" />
-    <Compile Include="Interface\Subject.cs" />
+    <Compile Include="ConcreteObserver.cs" />
+    <Compile Include="ConcreteSubject.cs" />
+    <Compile Include="Observer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Subject.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
